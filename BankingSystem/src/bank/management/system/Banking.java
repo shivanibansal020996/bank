@@ -33,6 +33,8 @@ public class Banking {
 	         Actualamount=  addedamount+Actualamount;
 	        
 	    }
+	   
+	   
 	if(a.getAccounnumber().equals(accno) && addedamount>0) {
 		String balance=String.valueOf(Actualamount);
 		  a.setAccountBalance(balance);
