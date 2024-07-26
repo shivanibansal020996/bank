@@ -13,7 +13,10 @@ import com.bank.model.Account;
 import com.bank.model.Transaction;
 
 public class Banking {
-	
+	 
+	public Banking() {
+		System.out.println("i am testing here");
+	}
 	private static List <Transaction> tran = new ArrayList<>();
 	int count=0;
 	public String  deposit(String amount, Customer cust1, String accno) {
