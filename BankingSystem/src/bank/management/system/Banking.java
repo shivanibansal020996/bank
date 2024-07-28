@@ -15,7 +15,6 @@ import com.bank.model.Transaction;
 public class Banking {
 	 
 	public Banking() {
-		System.out.println("i am testing here");
 		System.out.println("shivani bansal");
 	}
 	private static List <Transaction> tran = new ArrayList<>();
